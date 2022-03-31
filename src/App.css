@@ -9,16 +9,52 @@
   --logoBlue: #266cb0;
 }
 
+.circle-leave-active { animation: 1s circle; }
+
 .landingContainer{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background-color: var(--dark-grey); */
-  background: linear-gradient(
-   to right, #212529, rgb(167, 167, 167));
-  clip-path: circle(400%);
-  transition: clip-path 3s;
+  background-image: linear-gradient(to right top, #212529, #2c2f33, #373a3d, #434547, #4f5052, #606163, #727274, #848486, #a1a1a3, #c0c0c1, #dfdfdf, #ffffff);  
+  clip-path: circle(90%);
+  animation: 3s circle;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes circle {
+  0% { clip-path: circle(75%); }
+  100% { clip-path: circle(200px); }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-8px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.scrollPrompt{
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+font-weight: 600;
+font-variant: all-petite-caps;
+text-align: center; 
+}
+
+.arrowText{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--medgrey);
+  animation: float 3s ease-in-out infinite;
+  text-decoration: none;
 }
 
 
@@ -31,7 +67,7 @@
 } */
 
 .landingText{
-  font-size: 20px;
+  font-size: 17px;
   /* background-color: var(--dark-grey); */
   letter-spacing: 10px;
   text-decoration: none;
@@ -47,9 +83,6 @@
 
 
 
-.landingContainer:hover {
-  clip-path: circle(22%);
-}
 
 
 .headerIcons{
