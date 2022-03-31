@@ -14,11 +14,13 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--dark-grey);
+  /* background-color: var(--dark-grey); */
+  background: linear-gradient(
+   to right, #212529, rgb(167, 167, 167));
   clip-path: circle(400%);
   transition: clip-path 3s;
-
 }
+
 
 /* .landingText{
   text-decoration: none;
@@ -30,7 +32,7 @@
 
 .landingText{
   font-size: 20px;
-  background-color: var(--dark-grey);
+  /* background-color: var(--dark-grey); */
   letter-spacing: 10px;
   text-decoration: none;
   font-weight: bold;
@@ -39,14 +41,14 @@
   /* clip-path: circle(200%);
   transition: clip-path 1s; */
   text-align: center;
-  padding: 0 0px 0 10px
+  padding: 0 0px 0 10px;
+  
 }
 
 
 
 .landingContainer:hover {
-  clip-path: circle(20%);
-  
+  clip-path: circle(22%);
 }
 
 
