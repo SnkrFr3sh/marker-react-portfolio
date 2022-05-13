@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --white: #fff;
+    --dark-grey: #212529;
+    --lightgrey: rgb(167, 167, 167);
+    --white: white;
+    --medgrey:  rgb(95, 95, 95);
+    --logoOrange: #f26b3a;
+    --logoBlue: #266cb0;
+    --extralightgrey: #D3D3D3;
+    --silk: #fdf5e6;
+  }
+
+.logoBox{
+    width: 150px;
+    height: 80px;
+    margin: -5px 30px 30px 50px ;
+    padding: 10px 20px 20px 20px;
+    border-radius: 0px 0px 150px 150px ;
+    background-color:  red;  
+    color: var(--white);
+    font-weight: bold;
+}
+
+.logoText1{
+    font-size: 15px;
+    letter-spacing: 2px;
+    height:20px;
+    margin-left:5px
+
+
+}
+
+.logoText2{
+    font-size: 15px;
+    letter-spacing: .5px;
+    height: 20px;
+    margin-left:5px
+}

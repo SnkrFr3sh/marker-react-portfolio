@@ -1,33 +1,21 @@
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home.js'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-
-
-
+import Home from './pages/Home/Home';
+import Landing from './pages/Landing/index'
 
 function App() {
+  
   return (
-    <section>
-      <BrowserRouter>
-        <div class='scrollPrompt'>
-          <p class='scrollText arrowText' to="/" href="/"
-          >^</p>
-          {/* <p class='scrollText'> SCROLL UP</p> */}
-        </div>
-        <div>
-          <div class='landingContainer circle-leave-active'>
-            <div class='landingText'>
-              MARC PACAMPARA
-            </div>
-          </div>
-        </div>
+    <section class='body'>
+        <BrowserRouter>
 
-
-        <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-      </BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Landing />} />
+            <Route path='/Home' element={<Home />} />
+          </Routes>
+        </BrowserRouter>
     </section>
+
   );
 }
 
