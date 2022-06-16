@@ -1,0 +1,244 @@
+.slashSection{
+    position: relative;
+    top: 500px;
+}
+
+.slash{
+    font-size: 800px;
+    min-height: 15px;
+    background-color: var(--medgrey);
+    max-width: 650px;
+    min-width: 600px;
+    /* transform: rotate(-45deg); */
+    border-radius: 2px;
+    z-index: 9;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+    margin-left: 800px !important;
+    padding-top: 2px;
+    opacity: 50%;
+}
+
+.slash0{
+    margin-top: -500px;
+
+    animation-delay: -200ms;
+}
+
+
+.slash1{
+    margin-top: -480px;
+}
+
+.slash2{
+    margin-top: -460px;
+
+    animation-delay: 200ms;
+}
+
+.slash3{
+    margin-top: -440px;
+
+    animation-delay: 400ms;
+}
+
+.slash4{
+    margin-top: -420px;
+
+    animation-delay: 600ms;
+}
+
+.slash5{
+    margin-top: -400px;
+    animation-delay: 800ms;
+
+}
+.slash6{
+    margin-top: -380px;
+
+    animation-delay: 1000ms;
+}
+
+.slash7{
+    margin-top: -360px;
+
+    animation-delay: 1200ms;
+}
+
+.slash8{
+    margin-top: -340px;
+
+    animation-delay: 1400ms;
+}
+
+.slash9{
+    margin-top: -320px;
+    animation-delay: 1600ms;
+
+}
+
+.slash10{
+    margin-top: -300px;
+    animation-delay: 1800ms;
+
+}
+.slash11{
+    margin-top: -280px;
+
+    animation-delay: 2000ms;
+}
+
+.slash12{
+    margin-top: -260px;
+    animation-delay: 2200ms;
+}
+
+.slash13{
+    margin-top: -240px;
+    animation-delay: 2400ms;
+}
+
+.slash14{
+    margin-top: -220px;
+    animation-delay: 2600ms;
+}
+
+.slash15{
+    margin-top: -200px;;
+    animation-delay: 2800ms;
+}
+.slash16{
+    margin-top: -180px;;
+    animation-delay: 3000ms;
+}
+
+.slash17{
+    margin-top: -160px;
+    animation-delay: 3200ms;
+}
+
+.slash18{
+    margin-top: -140px;
+    animation-delay: 3400ms;
+}
+
+.slash19{
+    margin-top: -120px;
+    animation-delay: 3600ms;
+}
+
+.slash20{
+    margin-top: -100px;
+    animation-delay: 3800ms;
+}
+.slash21{
+    margin-top: -80px;
+    animation-delay: 4000ms;
+}
+
+.slash22{
+    margin-top: -60px;
+    animation-delay: 4200ms;
+}
+
+.slash23{
+    margin-top: -40px;
+    animation-delay: 4400ms;
+}
+
+.slash24{
+    margin-top: -20px;
+    animation-delay: 4600ms;
+}
+
+.slash25{
+    margin-top: 0px;
+    animation-delay:4800ms;
+}
+.slash26{
+    margin-top: 20px;
+    animation-delay: 5000ms;
+}
+
+.slash27{
+    margin-top: 40px;
+    animation-delay: 5200ms;
+}
+
+.slash28{
+    margin-top: 60px;
+    animation-delay: 5400ms;
+}
+
+.slash29{
+    margin-top: 80px;
+    animation-delay: 5600ms;
+}
+
+.slash30{
+    margin-top: 100px;
+    animation-delay: 5800ms;
+}
+
+.slash31{
+    margin-top: 120px;
+    animation-delay: 6000ms;
+}
+
+.slash32{
+    margin-top: 140px;
+    animation-delay: 6200ms;
+}
+
+.slash33{
+    margin-top: 160px;
+    animation-delay: 6400ms;
+}
+
+.slash34{
+    margin-top: 180px;
+    animation-delay: 6600ms;
+}
+
+.slash35{
+    margin-top: 200px;
+    animation-delay:6800ms;
+}
+.slash36{
+    margin-top: 220px;
+    animation-delay: 7000ms;
+}
+
+.slash37{
+    margin-top: 240px;
+    animation-delay: 7200ms;
+}
+
+.slash38{
+    margin-top: 260px;
+    animation-delay: 7400ms;
+}
+
+.slash39{
+    margin-top: 280px;
+    animation-delay: 7600ms;
+}
+
+.slash40{
+    margin-top: 300px;
+    animation-delay: 7800ms;
+}
+
+
+@keyframes bounce-2 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-50px); }
+    100% { transform: translateX(0); }
+}
+
+.slash:hover{
+    background-color: #fff;
+}

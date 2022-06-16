@@ -7,7 +7,7 @@ import './style.css'
 // <div>Test
 export default function AboutMe() {
     return (
-        <div class="AboutMeBody">
+        <div class="aboutMeBody">
             <div class='aboutTitle1'>ABOUT</div>
             <div class='aboutTitle2'>ME</div>
             <div class='AboutMeContent'>

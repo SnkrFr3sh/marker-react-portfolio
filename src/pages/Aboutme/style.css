@@ -1,0 +1,16 @@
+:root {
+    --black: #000000;
+    --white: #fff;
+    --dark-grey: #212529;
+    --lightgrey: rgb(167, 167, 167);
+    --white: white;
+    --medgrey:  rgb(95, 95, 95);
+    --logoOrange: #f26b3a;
+    --logoBlue: #266cb0;
+    --extralightgrey: #D3D3D3;
+    --silk: #fdf5e6;
+  }
+
+.aboutMeBody{
+    background-color: var(--medgrey);
+}
