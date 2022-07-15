@@ -22,12 +22,14 @@ background-color: var(--dark-grey) !important;
 
 }
 
+
+
 .homeBox{
   height:100vh;
   /* width:1100px; */
   position: absolute;
   background-color: var(--dark-grey);
-  /* top:0; */
+
   /* box-shadow: 10px 5px 5px var(--lightgrey); */
 }
 
@@ -37,13 +39,29 @@ background-color: var(--dark-grey) !important;
     opacity: 99%;
     position: absolute;
     width: auto;
-    height: 95%;
-    max-height: 900px;
-    z-index: 9;
-    left:-50px;
-    bottom: 0px !important;
+    height: 700px;
+    z-index: 7;
+    left:-80px;
+
+  top:-60px;
+    /* bottom: 0px !important; */
   
   
+}
+
+.pixelPhoto{
+  filter: grayscale(70%);
+  opacity: 99%;
+  position: absolute;
+  width: auto;
+  height: 700px;
+  z-index: 3;
+  left:80px;
+
+top:-60px;
+  /* bottom: 0px !important; */
+
+
 }
 
 /* .pixelPhoto{
@@ -61,12 +79,12 @@ background-color: var(--dark-grey) !important;
 } */
 
 .aboutTitle{
-  /* position: relative; */
-  z-index: 9;
-
+  /* z-index: ; */
+  height: 150px;
   width: 100vw;
-  display: flex;
+  display:flex;
   justify-content: center;
+  margin-bottom: 20px;
 
 }
 
@@ -74,6 +92,8 @@ background-color: var(--dark-grey) !important;
   font-size: 100px;
   color: var(--silk);
   z-index: 9;
+  height: 150px;
+  text-align: center;
 }
 
 .aboutTitleBox{
@@ -84,7 +104,26 @@ background-color: var(--dark-grey) !important;
   margin-left:100px;
   top: 93px;
   z-index: 8;
+  border-radius: 1px;
   
+}
+
+.aboutLeft{
+  width:600px;
+  height: 600px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutRight{
+  width: 600px;
+  height:600px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .aboutTextBox{
@@ -118,44 +157,52 @@ background-color: var(--dark-grey) !important;
   margin: 0 auto; */
     z-index: 10;
   position:absolute;
-  width: 400px;
+  width: 500px;
   /* border: thick solid;
   border-color: var(--silk);
   border-radius: 5px; */
   z-index: 8;
-  height: 400px;
-  left: 420px;
-  top: 250px;
-  transform: translate(-30%);
+  height: 650px;
+  /* left: 420px;
+  top: 250px; */
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
+  /* background-image:  linear-gradient(to left, #743ad5, #d53a9d); */
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   
 }
 
 .aboutSection{
   position:absolute;
-  width: 350px;
+  width: 390px;
   /* border: thick solid;
   border-color: var(--silk);
   border-radius: 5px; */
   z-index: 11;
-  height: 300px;
-  left: 460px;
-  top: 260px;
-  transform: translate(-40%);
-  
+  height: 250px;
+  left: 150px;
+  top: 350px;
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+
+  /* border-right: 10px solid;
+  border-bottom: 10px solid; */
+  border-image-slice: 1;
+  border-width: 5px;
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+
 }
 
 .aboutText{
   color: var(--silk);
-  padding: 50px 30px 30px 30px;
-  font-size: 25px;
+  padding: 30px;
+  font-size: 21px;
   font-weight: 400;
   z-index: 11;
   text-align: justify;
-  height: 300px;
+  height: 200px;
+
 }
 
 /* .techAboutSectionBorder{
@@ -174,7 +221,7 @@ background-color: var(--dark-grey) !important;
 .techAboutSection{
   z-index: 10;
   position:absolute;
-  width: 500px;
+  width: 600px;
   /* border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
@@ -182,10 +229,9 @@ background-color: var(--dark-grey) !important;
   /* border-color: var(--hotpink); */
   border-radius: 400px;
   z-index: 8;
-  bottom: 100px;
   height: 500px;
-  right: 50px;
-  top:200px;
+  /* right: 50px;
+  top:200px; */
 
 }
 
@@ -202,31 +248,44 @@ background-color: var(--dark-grey) !important;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 .iconTile{
-  background-image: linear-gradient(to left, #743ad5, #d53a9d);
-  width: 100px;
-  height:100px;
-  margin:10px;
-  border-radius: 3px;
+  /* background-image: linear-gradient(to left, #743ad5, #d53a9d); */
+  background-color: var(--dark-grey);
+  width: 150px;
+  height:90px;
+  margin: 10px;
+
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 1s ease;
+
 }
 
 .icon{
-  height:60px;
-  width:60px;
+  height:50px;
+  width:50px;
   padding: 5px 5px 5px 5px;
   margin-top: 5px;
+
 
 }
 
 .icon6{
-  height:60px;
-  width:80px;
+  height:50px;
+  width:60px;
   padding: 20px 10px 0px 10px;
   margin-top: 0px;
 }
+
+.iconTile:hover{
+  transform: scale(1.25);
+}
+
+
+
 
 /* .aboutBar{
   background-color: #ff32ff;
