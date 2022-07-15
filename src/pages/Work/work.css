@@ -15,3 +15,59 @@
 .workTitle{
     color: var(--silk);
 }
+
+.workBody{
+  position: relative;
+    height: 100vh;
+    width: 100vw;
+left: 50%; 
+transform: translate(-50%);
+background-color: var(--dark-grey) !important;
+
+}
+
+.workTitle{
+  /* z-index: ; */
+  height: 150px;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.workTitleText{
+  font-size: 100px;
+  color: var(--silk);
+  z-index: 9;
+  height: 150px;
+  text-align: center;
+}
+
+.workTitleBox{
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  position: absolute;
+  height: 40px;
+  width: 420px;
+  margin-left:150px;
+  top: 90px;
+  z-index: 8;
+  border-radius: 1px;
+  
+}
+
+.workSectionBorder{
+    z-index: 10;
+  position:absolute;
+  width: 800px;
+  z-index: 8;
+  height: 600px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  background-color: #743ad5 ;
+  left: 200px;
+  /* background-image: linear-gradient(to left, #743ad5, #d53a9d); */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  
+}
