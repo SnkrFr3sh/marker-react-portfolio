@@ -1,30 +1,78 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import './Home.css'
-import Header from '../Header/Header'
+
 import homePhoto from '../../components/images/homephoto.png'
-import Projects from '../Projects/projects'
-import AboutMe from '../Aboutme/Aboutme';
+import pixelPhoto from '../../components/images/pixelPhoto.png'
 
 
 
 function Home() {
   return (
-    <div class='homeBody'>
-      {/* <Header /> */}
+    <div>
+      {/* <Landing /> */}
+      <div class='homeBody'>
 
-      <section class='homeSection'>
-      <div>
-        <img src={homePhoto} alt='' class='homePhoto'></img>
-      </div>
-      {/* <div className='moon' /> */}
-      <div class='nameHomeBox'>
-        <div class='nameHome1 nameHome'>Hello. </div>
-        <div class='nameHome1 nameHome'>I am </div>
-        <div class='nameHome1 nameHome'>Marc </div>
+        <section class='homeSection'>
+          <div class='aboutTitle'>
+            <div className='aboutTitleBox'></div><div class='aboutTitleText'>ABOUT</div></div>
+          {/* <div class='aboutTextBox'>
+          <div class='aboutBar'>
+            About me
+            <span class='aboutToggle'>
+              -
+            </span>
+          </div>
+          <div class='aboutText'>
+            I am an full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs.
+          </div>
 
-      </div>
-      <section class='bubbleHome'>
+        </div> */}
+          <div class='homeBox'></div>
+
+          <div>
+            <img src={homePhoto} alt='' class='homePhoto'></img>
+          </div>
+          <div>
+            <img src={pixelPhoto} alt='' class='pixelPhoto'></img>
+          </div>
+          {/* <div class='nameHomeBox'> */}
+          <div class='aboutSectionBorder'></div>
+          <div class='aboutSection'>
+            <div class='aboutText'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta maiores a odio nulla aspernatur tenetur accusantium, unde eum, neque dignissimos beatae impedit voluptatum commodi nesciunt quos nostrum. Optio, dolore!</p>
+              {/* I am an full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. */}
+            </div>
+            {/* </div> */}
+
+
+            {/* <Link to='/aboutme'>
+            <div><button class='nameHome1 nameHome button1'><span class='nameHome1 nameHome animate__fadeInLeft'>Hello, </span></button>
+            </div>
+          </Link>
+          <Link to='/work'>
+            <div>
+              <button class='nameHome2 button2'><span class='nameHome2 '>I'm Marc.</span></button>
+            </div>
+          </Link> */}
+            {/* <Link to='/art'>
+            <div>
+              <button class='nameHome3 nameHome button3'><span class='nameHome1 nameHome'>Marc</span></button>
+            </div>
+          </Link> */}
+          </div>
+
+          <div class='techAboutSectionBorder'></div>
+          <div class='techAboutSection'>
+            <div class='techAboutText'>
+              
+              {/* I am an full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. */}
+            </div>
+            </div>
+          {/* <div class='aboutParagraph'>
+        I am a full-stack web developer
+        </div> */}
+          {/* <section class='bubbleHome'>
           <div class='bubble bubble1 shift1'/>
           <div class='bubble bubble2 shift2'/>
           <div class='bubble bubble3 shift3'/>
@@ -53,15 +101,18 @@ function Home() {
           <div class='bubble bubble13'/>
           <div class='bubble bubble14 shift4'/>
           <div class='bubble bubble19'/>
+        </section> */}
+
         </section>
-      </section>
+        <section>
+        </section>
 
 
 
 
 
+      </div>
     </div>
-
   );
 }
 

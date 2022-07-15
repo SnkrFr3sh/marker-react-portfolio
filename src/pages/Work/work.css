@@ -11,6 +11,7 @@
     --silk: #fdf5e6;
   }
 
-.aboutMeBody{
-    background-color: var(--medgrey);
+
+.workTitle{
+    color: var(--silk);
 }

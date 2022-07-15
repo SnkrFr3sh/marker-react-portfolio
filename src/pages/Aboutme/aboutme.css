@@ -1,0 +1,54 @@
+:root {
+    --black: #000000;
+    --white: #fff;
+    --dark-grey: #212529;
+    --lightgrey: rgb(167, 167, 167);
+    --white: white;
+    --medgrey:  rgb(95, 95, 95);
+    --logoOrange: #f26b3a;
+    --logoBlue: #266cb0;
+    --extralightgrey: #D3D3D3;
+    --silk: #fdf5e6;
+  }
+/* 
+.aboutBody{
+    background-color: var(--silk);
+    position: relative;
+
+}
+
+
+.aboutTextBox{
+  background-color: var(--silk);
+  width:300px;
+  position: relative;
+  height: 180px;
+  margin-left: 650px;
+  top:180px;
+  border-radius: 3px 3px 20px 3px;
+  box-shadow: 7px 5px 7px var(--black);
+}
+
+.aboutToggle{
+  position: fixed;
+  left:930px;
+  font-size: 25px;
+  margin-top: -7px;
+}
+
+.aboutBar{
+  background-color: #ff32ff;
+  color: var(--silk);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.aboutText{
+  color: var(--medgrey);
+  width: 250px;
+  margin-top: 15px;
+  font-size: 17px;
+  background-color: var(--silk);
+  margin-left: 25px;
+
+} */

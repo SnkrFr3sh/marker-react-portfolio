@@ -13,7 +13,20 @@
   
   .circle-leave-active { animation: 1s circle; }
   
+.websiteBody{
+  background-color: var(--dark-grey) !important;
+
+}
+
+.landingBody{
+  position:relative;
+  background-color: var(--dark-grey) !important;
+  height: 100vh;
+  width:100vw;
+}
+
   .landingContainer{
+    /* position:relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +37,7 @@
     animation: 3s circle;
     animation-fill-mode: forwards; 
     filter: drop-shadow(0 0 4rem crimson);
+    z-index: 999;
   }
 
   
@@ -74,7 +88,7 @@
   } */
   
 .landingText{
-    font-size: 17px;
+    font-size: 25px;
     /* background-color: var(--dark-grey); */
     letter-spacing: 10px;
     text-decoration: none !important;
