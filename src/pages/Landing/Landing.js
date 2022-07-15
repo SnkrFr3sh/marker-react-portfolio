@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Landing/syle.css'
+import '../Landing/Landing.css'
 import '../Home/Home.css'
 import homePhoto from '../../components/images/homephoto.png'
 import pixelPhoto from '../../components/images/pixelPhoto.png'
@@ -21,13 +21,14 @@ export default function Landing() {
   return (
     <div class='websiteBody'>
       <section class='landingBody'>
-        <div class='landingContainer circle-leave-active'>
-          <Link to='home' className='landingText'>
+        {/* <div class='landingContainer circle-leave-active'> */}
+        <div class='landingContainer'>
+          <Link to='' className='landingText'>
             <div>Hello,</div>
             <div>I'm Marc.</div>
           </Link>
         </div>
-        <div class='bubbleLanding'>
+        {/* <div class='bubbleLanding'>
           <div class='bubble bubble1 shift1' />
           <div class='bubble bubble2 shift2' />
           <div class='bubble bubble3 shift3' />
@@ -42,7 +43,7 @@ export default function Landing() {
           <div class='bubble bubble13 shift4' />
           <div class='bubble bubble14 shift2' />
           <div class='bubble bubble19 shift4' />
-        </div>
+        </div> */}
       </section>
       <section class='homeBody'>
         <section class='homeSection'>
@@ -60,7 +61,7 @@ export default function Landing() {
           <div class='aboutSectionBorder'></div>
           <div class='aboutSection'>
             <div class='aboutText'>
-              <p>I am a full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quos?
+              <p>I am a full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Auos?
               </p>
             </div>
           </div>

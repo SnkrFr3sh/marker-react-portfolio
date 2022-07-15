@@ -11,7 +11,7 @@
     --silk: #fdf5e6;
   }
   
-  .circle-leave-active { animation: 1s circle; }
+  /* .circle-leave-active { animation: 1s circle; } */
   
 .websiteBody{
   background-color: var(--dark-grey) !important;
@@ -31,22 +31,29 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-      background-image: linear-gradient(to right top, #f0f, #ff32ff,#ffccff, #ffffff);  
+      /* background-image: linear-gradient(to right top, #f0f, #ff32ff,#ffccff, #ffffff);   */
+      background-image: linear-gradient(to left, #743ad5, #d53a9d);;
+      clip-path: circle(95%);
+      animation: 3s circle;
+      animation-fill-mode: forwards; 
+      filter: drop-shadow(0 0 4rem crimson);
+      z-index: 999;
+      transition: clip-path 3s;
 
-      clip-path: circle(90%);
-    animation: 3s circle;
-    animation-fill-mode: forwards; 
-    filter: drop-shadow(0 0 4rem crimson);
-    z-index: 999;
+  }
+
+  .landingContainer:hover {
+    clip-path: circle(10%);
+
   }
 
   
 
   
-  @keyframes circle {
+  /* @keyframes circle {
     0% { clip-path: circle(75%); }
     100% { clip-path: circle(200px); }
-  }
+  } */
   
   @keyframes float {
       0% {
