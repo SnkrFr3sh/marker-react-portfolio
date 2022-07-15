@@ -72,12 +72,12 @@ background-color: var(--dark-grey) !important;
 
 .aboutTitleText{
   font-size: 100px;
-  color: var(--hotpink);
+  color: var(--silk);
   z-index: 9;
 }
 
 .aboutTitleBox{
-  background-color: var(--silk);
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
   position: absolute;
   height: 30px;
   width: 220px;
@@ -193,7 +193,7 @@ background-color: var(--dark-grey) !important;
   color: var(--silk);
   padding: 60px 30px 60px 30px;
 
-  font-size: 23px;
+  font-size: 21px;
   /* background-color: var(--dark-grey); */
   left: 320px;
   font-weight: 400;
@@ -204,18 +204,28 @@ background-color: var(--dark-grey) !important;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-
+.iconTile{
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  width: 100px;
+  height:100px;
+  margin:10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .icon{
-  height:80px;
-  width:80px;
-  padding: 5px 5px 0px 5px;
+  height:60px;
+  width:60px;
+  padding: 5px 5px 5px 5px;
+  margin-top: 5px;
+
 }
 
 .icon6{
   height:60px;
   width:80px;
   padding: 20px 10px 0px 10px;
+  margin-top: 0px;
 }
 
 /* .aboutBar{

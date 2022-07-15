@@ -18,6 +18,10 @@
 
 }
 
+.iconText{
+  margin: 0px;
+}
+
 .landingBody{
   position:relative;
   background-color: var(--dark-grey) !important;
@@ -32,7 +36,7 @@
     align-items: center;
     height: 100vh;
       /* background-image: linear-gradient(to right top, #f0f, #ff32ff,#ffccff, #ffffff);   */
-      background-image: linear-gradient(to left, #743ad5, #d53a9d);;
+      background-image: linear-gradient(to left, #743ad5, #d53a9d);
       clip-path: circle(95%);
       animation: 3s circle;
       animation-fill-mode: forwards; 

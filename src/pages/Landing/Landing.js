@@ -66,45 +66,45 @@ export default function Landing() {
             </div>
           </div>
 
-          <div class='techAboutSectionBorder'></div>
+          {/* <div class='techAboutSectionBorder'></div> */}
           <div class='techAboutSection'>
             <div class='techAboutText'>
               {/* <div class='iconContainer'> */}
-                <div>
+                <div class='iconTile'>
                   <img src={htmlIcon} alt='' class='icon icon1' />
-                  <p>HTML</p>
+                  <p class='iconText'>HTML</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={cssIcon} alt='' class='icon icon2' />
-                  <p>CSS</p>
+                  <p class='iconText'>CSS</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={jsIcon} alt='' class='icon icon3' />
-                  <p>Javascript</p>
+                  <p class='iconText'>Javascript</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={reactjsIcon} alt='' class='icon icon4' />
-                  <p>React.js</p>
+                  <p class='iconText'>React.js</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={mongoIcon} alt='' class='icon icon5' />
-                  <p>MongoDB</p>
+                  <p class='iconText'>MongoDB</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={sqlIcon} alt='' class='icon icon6' />
-                  <p>MySQL</p>
+                  <p class='iconText'>MySQL</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={expressIcon} alt='' class='icon icon6' />
-                  <p>Express.js</p>
+                  <p class='iconText'>Express.js</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={nodeIcon} alt='' class='icon icon8' />
-                  <p>Node.js</p>
+                  <p class='iconText'>Node.js</p>
                 </div>
-                <div>
+                 <div class='iconTile'>
                   <img src={sassIcon} alt='' class='icon icon9' />
-                  <p>SASS</p>
+                  <p class='iconText'>SASS</p>
                 </div>
 
               {/* </div> */}
