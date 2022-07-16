@@ -56,18 +56,76 @@ background-color: var(--dark-grey) !important;
   
 }
 
-.workSectionBorder{
+.project1Section{
     z-index: 10;
   position:absolute;
   width: 800px;
   z-index: 8;
-  height: 600px;
+  height: 550px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  background-color: #743ad5 ;
-  left: 200px;
-  /* background-image: linear-gradient(to left, #743ad5, #d53a9d); */
+  /* background-color: #743ad5 ; */
+  left: 50px;
+  background-image: linear-gradient(to left, #743ad5,#2E1755);
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.project1Text{
+  color: var(--silk);
+  padding: 30px;
+  /* font-size: 25px; */
+  font-weight: 400;
+  z-index: 11;
+  height: 200px;
+  margin-left:550px;
+  width: 550px;
+
+}
+
+.project1Title{
+  margin-top: 100px;
+  font-size: 40px;
+  line-height: .9;
+  font-size: 50px;
+}
+
+.project1Desc{
+  margin-top: 30px;
+  font-size: 22px;
+  width: 400px;
+  line-height: .9;
+
+}
+
+
+
+.project1LiveBtn{
+  margin-top: 50px;
+  font-size: 22px;
+
+}
+
+.project1LiveBtnLine{
+  width: 92px;
+  height: 4px;
+  background-color: #d53a9d;
+
+}
+
+.project1LearnMoreBtn{
+  margin-top: 20px;
+  font-size: 22px;
+
+}
+
+.project1LearnMoreBtnLine{
+  width: 134px;
+  height: 4px;
+  background-color: #d53a9d;
+
 }
