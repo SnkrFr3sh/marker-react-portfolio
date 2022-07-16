@@ -13,6 +13,10 @@ import sqlIcon from '../../components/images/mysql.png'
 import expressIcon from '../../components/images/expressjs.png'
 import nodeIcon from '../../components/images/nodejs.png'
 import sassIcon from '../../components/images/sass.png'
+import project1 from '../../components/images/project1.png'
+import project2 from '../../components/images/project2.png'
+import project3 from '../../components/images/project3.png'
+
 
 
 export default function Landing() {
@@ -138,6 +142,7 @@ export default function Landing() {
                 {/* <div class='row'> */}
                 <div class='projectLeft'>
                     <div class='projectLeftSection'>
+                        <img src={project1} alt='' class='projectPhotoLeft' />
                         <div class='projectLeftText'>
                             <div class='projectLeftTitle'>
                                 <p>Tailor Thrift</p>
@@ -158,13 +163,14 @@ export default function Landing() {
                 </div>
                 <div class='projectRight'>
                     <div class='projectRightSection'>
+                    <img src={project2} alt='' class='projectPhotoRight' />
                         <div class='projectRightText'>
                             <div class='projectRightTitle'>
-                                <p>Joint Effort</p>
+                                <p>NBA Facts</p>
                                 <p> Front-End Website</p>
                             </div>
 
-                            <p class='projectRightDesc'>Website built with Node.js, Express.js, Javascript, Google Maps API. </p>
+                            <p class='projectRightDesc'>Full Stack E-commerce website built with Node.js, Express.js, APIs: NBA & Bing Photos </p>
                             <div class='projectRightLive'>
                                 <div class='projectRightLiveBtn'>LIVE SITE
                                 <div class='projectRightLiveBtnLine'></div>
@@ -181,13 +187,14 @@ export default function Landing() {
                 </div>
                 <div class='projectLeft'>
                     <div class='projectLeftSection'>
+                    <img src={project3} alt='' class='projectPhotoLeft' />
                         <div class='projectLeftText'>
                             <div class='projectLeftTitle'>
-                                <p>Sport Facts</p>
+                                <p>Joint Effort</p>
                                 <p>Front-End Website</p>
                             </div>
 
-                            <p class='projectLeftDesc'>Full Stack E-commerce website built with Node.js, Express.js, APIs: NBA & Bing Photos </p>
+                            <p class='projectLeftDesc'>Website built with Node.js, Express.js, Javascript, Google Maps API. </p>
                             <div class='projectLeftLive'>
                                 <div class='projectLeftLiveBtn'>LIVE SITE</div>
                                 <div class='projectLeftLiveBtnLine'></div>

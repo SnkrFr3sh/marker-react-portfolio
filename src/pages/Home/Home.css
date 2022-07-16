@@ -14,7 +14,7 @@
 
 .aboutBody{
   position: relative;
-    height: 1000px;
+    height: 900px;
     width: 100vw;
 left: 50%; 
 transform: translate(-50%);
@@ -89,7 +89,8 @@ top:-60px;
 }
 
 .aboutTitleText{
-  font-size: 100px;
+  margin-top: 40px;
+  font-size: 60px;
   color: var(--silk);
   z-index: 9;
   height: 150px;
@@ -100,7 +101,7 @@ top:-60px;
   background-image: linear-gradient(to left, #743ad5, #d53a9d);
   position: absolute;
   height: 30px;
-  width: 220px;
+  width: 160px;
   margin-left:100px;
   top: 93px;
   z-index: 8;
