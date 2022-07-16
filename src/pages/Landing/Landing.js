@@ -45,7 +45,7 @@ export default function Landing() {
           <div class='bubble bubble19 shift4' />
         </div> */}
       </section>
-      <section class='homeBody'>
+      <section class='aboutBody'>
         {/* <section class='homeSection'> */}
           <div class='aboutTitle'>
             <div class='aboutTitleText'>ABOUT</div>
@@ -129,6 +129,79 @@ export default function Landing() {
 
         {/* </section> */}
       </section>
+      <section class="workBody">
+            <div class='workTitle'>
+                <div class='workTitleText'>PROJECTS</div>
+                <div className='workTitleBox'></div>
+            </div>
+            <div class='workSection'>
+                {/* <div class='row'> */}
+                <div class='projectLeft'>
+                    <div class='projectLeftSection'>
+                        <div class='projectLeftText'>
+                            <div class='projectLeftTitle'>
+                                <p>Tailor Thrift</p>
+                                <p>E-Commerce Website</p>
+                            </div>
+
+                            <p class='projectLeftDesc'>Full Stack E-commerce website built with REACT, Node.js, Express.js, MongoDB, </p>
+                            <div class='projectLeftLive'>
+                                <div class='projectLeftLiveBtn'>LIVE SITE</div>
+                                <div class='projectLeftLiveBtnLine'></div>
+                            </div>
+                            <div class='projectLeftLearnMore'>
+                                <div class='projectLeftLearnMoreBtn'>LEARN MORE</div>
+                                <div class='projectLeftLearnMoreBtnLine'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='projectRight'>
+                    <div class='projectRightSection'>
+                        <div class='projectRightText'>
+                            <div class='projectRightTitle'>
+                                <p>Joint Effort</p>
+                                <p> Front-End Website</p>
+                            </div>
+
+                            <p class='projectRightDesc'>Website built with Node.js, Express.js, Javascript, Google Maps API. </p>
+                            <div class='projectRightLive'>
+                                <div class='projectRightLiveBtn'>LIVE SITE
+                                <div class='projectRightLiveBtnLine'></div>
+                                </div>
+                                
+                            </div>
+                            <div class='projectRightLearnMore'>
+                                <div class='projectRightLearnMoreBtn'>LEARN MORE
+                                <div class='projectRightLearnMoreBtnLine'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='projectLeft'>
+                    <div class='projectLeftSection'>
+                        <div class='projectLeftText'>
+                            <div class='projectLeftTitle'>
+                                <p>Sport Facts</p>
+                                <p>Front-End Website</p>
+                            </div>
+
+                            <p class='projectLeftDesc'>Full Stack E-commerce website built with Node.js, Express.js, APIs: NBA & Bing Photos </p>
+                            <div class='projectLeftLive'>
+                                <div class='projectLeftLiveBtn'>LIVE SITE</div>
+                                <div class='projectLeftLiveBtnLine'></div>
+                            </div>
+                            <div class='projectLeftLearnMore'>
+                                <div class='projectLeftLearnMoreBtn'>LEARN MORE</div>
+                                <div class='projectLeftLearnMoreBtnLine'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* </div> */}
+            </div>
+        </section>
 
     </div>
   )

@@ -12,9 +12,9 @@
     --hotpink: #ff32ff;
   }
 
-.homeBody{
+.aboutBody{
   position: relative;
-    height: 100vh;
+    height: 1000px;
     width: 100vw;
 left: 50%; 
 transform: translate(-50%);
