@@ -191,6 +191,9 @@ top:-60px;
   border-bottom: 10px solid; */
   border-image-slice: 1;
   border-width: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 
 }
@@ -203,6 +206,7 @@ top:-60px;
   z-index: 11;
   text-align: justify;
   height: 200px;
+  
 
 }
 
@@ -258,11 +262,9 @@ top:-60px;
   width: 150px;
   height:90px;
   margin: 10px;
-
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 1s ease;
-
 }
 
 .icon{
@@ -270,8 +272,6 @@ top:-60px;
   width:50px;
   padding: 5px 5px 5px 5px;
   margin-top: 5px;
-
-
 }
 
 .icon6{
@@ -414,4 +414,11 @@ top:-60px;
     animation: fadein 1s;
   } */
 
+
+  @media screen and (max-width: 1399px) {
+    .aboutBody{
+      height: 1380px;
+    
+    }
+  }
 

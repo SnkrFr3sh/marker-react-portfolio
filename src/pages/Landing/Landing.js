@@ -32,7 +32,7 @@ export default function Landing() {
             <div>I'm Marc.</div>
           </Link>
         </div>
-        {/* <div class='bubbleLanding'>
+        <div class='bubbleLanding'>
           <div class='bubble bubble1 shift1' />
           <div class='bubble bubble2 shift2' />
           <div class='bubble bubble3 shift3' />
@@ -47,7 +47,7 @@ export default function Landing() {
           <div class='bubble bubble13 shift4' />
           <div class='bubble bubble14 shift2' />
           <div class='bubble bubble19 shift4' />
-        </div> */}
+        </div>
       </section>
       <section class='aboutBody'>
         {/* <section class='homeSection'> */}
@@ -138,7 +138,9 @@ export default function Landing() {
                 <div class='workTitleText'>PROJECTS</div>
                 <div className='workTitleBox'></div>
             </div>
+            <div class='workContainer'>
             <div class='workSection'>
+      
                 {/* <div class='row'> */}
                 <div class='projectLeft'>
                     <div class='projectLeftSection'>
@@ -207,6 +209,7 @@ export default function Landing() {
                     </div>
                 </div>
                 {/* </div> */}
+            </div>
             </div>
         </section>
 
