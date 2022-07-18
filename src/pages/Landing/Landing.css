@@ -34,6 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width:100vw;
     height: 100vh;
       /* background-image: linear-gradient(to right top, #f0f, #ff32ff,#ffccff, #ffffff);   */
       background-image: linear-gradient(to left, #743ad5, #d53a9d);
@@ -47,7 +48,7 @@
   }
 
   .landingContainer:hover {
-    clip-path: circle(10%);
+    clip-path: circle(150px);
 
   }
 
@@ -102,7 +103,7 @@
     text-decoration: none !important;
     font-weight: bold;
     max-width: 100vw;
-    color: var(--white);
+    color: var(--dark-grey);
     /* clip-path: circle(200%);
     transition: clip-path 1s; */
     text-align: center;
@@ -114,7 +115,7 @@
 
 
 a.landingText:hover{
-    color: var(--dark-grey);
+    color: var(--white);
     letter-spacing: 4px;
  }
 
