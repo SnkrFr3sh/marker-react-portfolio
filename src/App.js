@@ -1,4 +1,5 @@
-import { BrowserRouter, Switch, Routes, Route } from 'react-router-dom';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
+import { Switch, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home';
 import Landing from './pages/Landing/Landing'
@@ -9,13 +10,13 @@ function App() {
   
   return (
     <section class='body'>
-
-        <BrowserRouter basename='/website'>
-          <Routes>
-            <Route path='/' element={<Landing />} />
+      <div>test</div>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route exact path='/' element={<Landing  />} />
             {/* <Route path='/home' element={<Home />} />
             <Route path='/Work' element={<Work />} /> */}
-          </Routes>
+          </Switch>
         </BrowserRouter>
     </section>
 
