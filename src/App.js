@@ -1,9 +1,11 @@
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+// import BrowserRouter from 'react-router-dom/BrowserRouter'
 import { Switch, Routes, Route } from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
+
 import './App.css';
-import Home from './pages/Home/Home';
+// import Home from './pages/Home/Home';
 import Landing from './pages/Landing/Landing'
-import Work from './pages/Work/work'
+// import Work from './pages/Work/work'
 
 
 function App() {
@@ -11,13 +13,15 @@ function App() {
   return (
     <section class='body'>
       <div>test</div>
-        {/* <BrowserRouter>
+        <HashRouter>
+        {/* <BrowserRouter> */}
           <Switch>
             <Route path='/' exact element={<Landing  />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/Work' element={<Work />} />
+            {/* <Route path='/home' element={<Home />} />
+            <Route path='/Work' element={<Work />} /> */}
           </Switch>
-        </BrowserRouter> */}
+        {/* </BrowserRouter> */}
+        </HashRouter>
     </section>
 
   );
