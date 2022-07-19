@@ -11,13 +11,13 @@ function App() {
   return (
     <section class='body'>
       <div>test</div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        {/* <BrowserRouter>
           <Switch>
-            <Route exact path='/' element={<Landing  />} />
-            {/* <Route path='/home' element={<Home />} />
-            <Route path='/Work' element={<Work />} /> */}
+            <Route path='/' exact element={<Landing  />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/Work' element={<Work />} />
           </Switch>
-        </BrowserRouter>
+        </BrowserRouter> */}
     </section>
 
   );
