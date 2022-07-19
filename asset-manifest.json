@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marker-react-portfolio/static/css/main.ae7031ef.css",
-    "main.js": "/marker-react-portfolio/static/js/main.a15d0739.js",
+    "main.js": "/marker-react-portfolio/static/js/main.ffe5237c.js",
     "static/js/787.79df1edf.chunk.js": "/marker-react-portfolio/static/js/787.79df1edf.chunk.js",
     "static/media/project2.png": "/marker-react-portfolio/static/media/project2.5d3414ff16ff962ddf65.png",
     "static/media/homephoto.png": "/marker-react-portfolio/static/media/homephoto.1a189734242eb37fcce7.png",
@@ -11,11 +11,11 @@
     "static/media/reactjs.png": "/marker-react-portfolio/static/media/reactjs.396536ced87da4ba25b4.png",
     "index.html": "/marker-react-portfolio/index.html",
     "main.ae7031ef.css.map": "/marker-react-portfolio/static/css/main.ae7031ef.css.map",
-    "main.a15d0739.js.map": "/marker-react-portfolio/static/js/main.a15d0739.js.map",
+    "main.ffe5237c.js.map": "/marker-react-portfolio/static/js/main.ffe5237c.js.map",
     "787.79df1edf.chunk.js.map": "/marker-react-portfolio/static/js/787.79df1edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae7031ef.css",
-    "static/js/main.a15d0739.js"
+    "static/js/main.ffe5237c.js"
   ]
 }
