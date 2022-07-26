@@ -21,3 +21,8 @@
     width:100vw;
 
 }
+
+.test {
+  color: var(--silk);
+  font-size: 50px;
+}
