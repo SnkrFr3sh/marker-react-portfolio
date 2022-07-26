@@ -29,10 +29,10 @@ function App() {
       <section class='landingBody'>
         {/* <div class='landingContainer circle-leave-active'> */}
         <div class='landingContainer'>
-          <Link to='' className='landingText'>
+          <div to='' className='landingText'>
             <div>Hello,</div>
             <div>I'm Marc.</div>
-          </Link>
+          </div>
         </div>
         <div class='bubbleLanding'>
           <div class='bubble bubble1 shift1' />
