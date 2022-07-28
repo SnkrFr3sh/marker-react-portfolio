@@ -144,6 +144,7 @@ p {
   width: 92px;
   height: 4px;
   background-color: #d53a9d;
+  transition: all 2s ease;
 }
 
 .projectLeftLearnMoreBtn {
@@ -155,8 +156,17 @@ p {
   width: 134px;
   height: 4px;
   background-color: #d53a9d;
+  transition: all 2s ease;
 }
 
+.projectLeftLiveBtnLine:hover {
+  width: 5px;
+
+}
+.projectLeftLearnMoreBtnLine:hover {
+  width: 5px;
+  transition: all 2s ease;
+}
 
 .projectRight {
   width: 1200px;
@@ -257,6 +267,10 @@ p {
 }
 
 @media screen and (max-width: 450px) {
+  .workBody{
+    height:650px;
+  }
+
   .workSection {
     width: 100vw;
     display: flexbox;
@@ -264,13 +278,15 @@ p {
     justify-content: center;
   }
   
-
+  .workTitle{
+    margin-bottom: 0px;
+  }
   .workTitleText {
     margin-top: 35px;
     font-size: 30px;
     color: var(--silk);
     z-index: 9;
-    height: 150px;
+    height: 50px;
     text-align: center;
   }
 
@@ -288,16 +304,16 @@ p {
 
 .projectLeft {
   width: 100vw;
-  height: 350px;
-  margin-bottom: 80px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .projectLeftSection {
   z-index: 10;
   position: absolute;
-  width: 350px;
+  width: 270px;
   z-index: 8;
-  height: 300px;
+  height: 155px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
@@ -307,12 +323,12 @@ p {
 }
 
 .projectPhotoLeft {
-  height: 224px;
-  width: 280px;
+  height: 144px;
+  width: 180px;
   position: absolute;
-  left:50px;
+  left:-40px;
   /* margin-left: 400px; */
-  margin-top: 55px;
+  margin-top: 15px;
   filter: grayscale(100);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 transition: all 1s ease;
@@ -334,52 +350,68 @@ p {
   font-weight: 400;
   z-index: 11;
   height: 200px;
-  margin-left: 600px;
-  width: 550px;
+  margin-left: 170px;
+  width: 350px;
 
 }
 
 .projectLeftTitle {
-  margin-top: 160px;
+  margin-top: -10px;
   font-size: 40px;
   line-height: .9;
-  font-size: 50px;
+  font-size: 18px;
 }
 
 .projectLeftDesc {
-  margin-top: 30px;
-  font-size: 22px;
-  width: 400px;
+  margin-top: 10px;
+  font-size: 10px;
+  width: 150px;
   line-height: .9;
 }
 
 .projectLeftLiveBtn {
-  margin-top: 50px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 50px;
 }
 
 .projectLeftLiveBtnLine {
-  width: 92px;
+  width: 63px;
   height: 4px;
   background-color: #d53a9d;
+  margin-left: 50px;
+  transition: all 1s ease;
 }
 
+.projectLeftLiveBtnLine:hover {
+  width: 5px;
+}
+
+
 .projectLeftLearnMoreBtn {
-  margin-top: 20px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 50px;
 }
 
 .projectLeftLearnMoreBtnLine {
-  width: 134px;
+  width: 90px;
   height: 4px;
   background-color: #d53a9d;
+  margin-left: 50px;
+  transition: all 1s ease;
+}
+
+.projectLeftLearnMoreBtnLine:hover {
+  width: 5px;
+
 }
 
 
 .projectRight {
-  width: 1200px;
-  height: 550px;
-  margin-bottom: 60px;
+  width: 100vw;
+  height: 350px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: right;
 }
@@ -388,9 +420,9 @@ p {
 .projectRightSection {
   z-index: 10;
   position: absolute;
-  width: 850px;
+  width: 270px;
   z-index: 8;
-  height: 400px;
+  height: 159px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
@@ -398,18 +430,19 @@ p {
   /* right: 0px; */
   background-image: linear-gradient(to left, #2E1755, #743ad5);
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  transition: all 1s ease;
+  /* transition: all 1s ease; */
 }
 
 .projectPhotoRight {
-  height: 440px;
-  width: 550px;
+  height: 144px;
+  width: 180px;
   position: absolute;
-  margin-left: 220px;
-  margin-top: 55px;
+  margin-left: 80px;
+  margin-top: 15px;
   filter: grayscale(100);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 1s ease;
+
 }
 
 .projectPhotoRight:hover{
@@ -428,49 +461,64 @@ p {
   font-weight: 400;
   z-index: 11;
   height: 200px;
-  margin-top: 10px;
-  margin-left: -330px;
-  width: 550px;
+  margin-top: -5px;
+  margin-left: -250px;
+  width: 350px;
   text-align: right;
 
 }
 
 .projectRightTitle {
-  margin-top: 150px;
+  margin-top: -10px;
   font-size: 40px;
   line-height: .9;
-  font-size: 50px;
+  font-size: 18px;
 }
 
 .projectRightDesc {
-  margin-top: 30px;
-  font-size: 22px;
-  width: 490px;
+  margin-top: 10px;
+  font-size: 10px;
+  width: 150px;
   line-height: .9;
   text-align: right;
+  margin-left: 140px;
 }
 
 .projectRightLiveBtn {
-  margin-top: 50px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .projectRightLiveBtnLine {
-  width: 92px;
+  width: 63px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 398px;
+  margin-left: 228px;
+  transition: all 1s ease;
+}
+
+.projectRightLiveBtnLine:hover {
+  width: 5px;
+  margin-left: 285px;
 }
 
 .projectRightLearnMoreBtn {
-  margin-top: 20px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .projectRightLearnMoreBtnLine {
-  width: 132px;
+  width: 90px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 358px;
+  margin-left: 200px;
+  transition: all 1s ease;
 }
+
+.projectRightLearnMoreBtnLine:hover {
+  width: 5px;
+  margin-left: 285px;
+
+}
+
 }
