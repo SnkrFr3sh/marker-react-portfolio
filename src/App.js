@@ -28,7 +28,6 @@ function App() {
     <section class='body'>
       <div class='websiteBody'>
         <section class='landingBody'>
-          {/* <div class='landingContainer circle-leave-active'> */}
           <div class='landingContainer'>
             <div to='' className='landingText'>
               <div>Hello,</div>
@@ -53,17 +52,8 @@ function App() {
           </div>
         </section>
         <section class='aboutBody'>
-          {/* <section class='homeSection'> */}
-          <div class='aboutTitle'>
-            {/* <div className='aboutTitleBox'></div> */}
-
-
-            {/* <div class='homeBox'></div> */}
-            {/* <div>
-            <img src={homePhoto} alt='' class='homePhoto'></img>
+          {/* <div class='aboutTitle'>
           </div> */}
-
-          </div>
           <div class='aboutSectionBorder'>
             <div class='aboutColumnContainer container'>
               <div class='row'>
@@ -74,10 +64,6 @@ function App() {
                   <div>
                     <img src={homePhoto} alt='' class='homePhoto'></img>
                   </div>
-                  {/* <div>
-                      <img src={pixelPhoto} alt='' class='pixelPhoto'></img>
-                   </div> */}
-
                   <div class='aboutSection'>
                     <div class='aboutText'>
                       <p>I am a full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Auos?
@@ -86,11 +72,9 @@ function App() {
                   </div>
 
                 </div>
-                {/* <div class='techAboutSectionBorder'></div> */}
                 <div class='aboutRight col-md-6  mx-auto'>
                   <div class='techAboutSection'>
                     <div class='techAboutText'>
-                      {/* <div class='iconContainer'> */}
                       <div class='iconTile'>
                         <img src={htmlIcon} alt='' class='icon icon1' />
                         <p class='iconText'>HTML</p>
@@ -127,16 +111,12 @@ function App() {
                         <img src={sassIcon} alt='' class='icon icon9' />
                         <p class='iconText'>SASS</p>
                       </div>
-
-                      {/* </div> */}
-                      {/* I am an full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* </section> */}
         </section>
         <section class="workBody">
           <div class='workTitle'>
@@ -145,8 +125,6 @@ function App() {
           </div>
           <div class='workContainer'>
             <div class='workSection'>
-
-              {/* <div class='row'> */}
               <div class='projectLeft'>
                 <div class='projectLeftSection'>
                   <img src={project1} alt='' class='projectPhotoLeft' />
@@ -192,38 +170,12 @@ function App() {
                   </div>
                 </div>
               </div>
-              {/* <div class='projectLeft'>
-              <div class='projectLeftSection'>
-                <img src={project3} alt='' class='projectPhotoLeft' />
-                <div class='projectLeftText'>
-                  <div class='projectLeftTitle'>
-                    <p>Joint Effort</p>
-                    <p>Front-End Website</p>
-                  </div>
-
-                  <p class='projectLeftDesc'>Website built with Node.js, Express.js, Javascript, Google Maps API. </p>
-                  <div class='projectLeftLive'>
-                    <div class='projectLeftLiveBtn'>LIVE SITE</div>
-                    <div class='projectLeftLiveBtnLine'></div>
-                  </div>
-                  <div class='projectLeftLearnMore'>
-                    <div class='projectLeftLearnMoreBtn'>LEARN MORE</div>
-                    <div class='projectLeftLearnMoreBtnLine'></div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-              {/* </div> */}
             </div>
           </div>
-          {/* <div class='appSection'>
 
-        </div> */}
         </section>
         <section class='appSection'>
           <form class="contact-form">
-            {/* <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST"> */}
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text" className="form-control" />
