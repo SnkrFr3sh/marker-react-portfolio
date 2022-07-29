@@ -144,8 +144,13 @@ p {
   width: 92px;
   height: 4px;
   background-color: #d53a9d;
+}
+
+.projectLeftLive:hover .projectLeftLiveBtnLine{
+  width: 5px;
   transition: all 2s ease;
 }
+
 
 .projectLeftLearnMoreBtn {
   margin-top: 20px;
@@ -156,14 +161,9 @@ p {
   width: 134px;
   height: 4px;
   background-color: #d53a9d;
-  transition: all 2s ease;
 }
 
-.projectLeftLiveBtnLine:hover {
-  width: 5px;
-
-}
-.projectLeftLearnMoreBtnLine:hover {
+.projectLeftLearnMore:hover .projectLeftLearnMoreBtnLine {
   width: 5px;
   transition: all 2s ease;
 }
@@ -205,8 +205,8 @@ p {
 }
 
 .projectPhotoRight:hover{
-  transform: scale(.9);
-  filter:grayscale(0)
+    transform: scale(.9);
+    filter:grayscale(0)
 }
 
 p {
@@ -254,6 +254,11 @@ p {
   margin-left: 398px;
 }
 
+.projectRightLive:hover .projectRightLiveBtnLine{
+  width: 5px;
+  transition: all 2s ease;
+}
+
 .projectRightLearnMoreBtn {
   margin-top: 20px;
   font-size: 22px;
@@ -265,6 +270,12 @@ p {
   background-color: #d53a9d;
   margin-left: 358px;
 }
+
+.projectRightLearnMore:hover .projectRightLearnMoreBtnLine {
+  width: 5px;
+  transition: all 2s ease;
+}
+
 
 @media screen and (max-width: 450px) {
   .workBody{
@@ -372,40 +383,40 @@ p {
 .projectLeftLiveBtn {
   margin-top: 5px;
   font-size: 14px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .projectLeftLiveBtnLine {
   width: 63px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   transition: all 1s ease;
 }
 
-.projectLeftLiveBtnLine:hover {
+/* .projectLeftLiveBtnLine:hover {
   width: 5px;
-}
+} */
 
 
 .projectLeftLearnMoreBtn {
   margin-top: 5px;
   font-size: 14px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .projectLeftLearnMoreBtnLine {
   width: 90px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   transition: all 1s ease;
 }
 
-.projectLeftLearnMoreBtnLine:hover {
+/* .projectLeftLearnMoreBtnLine:hover {
   width: 5px;
 
-}
+} */
 
 
 .projectRight {
@@ -487,6 +498,7 @@ p {
 .projectRightLiveBtn {
   margin-top: 5px;
   font-size: 14px;
+
 }
 
 .projectRightLiveBtnLine {
@@ -497,14 +509,15 @@ p {
   transition: all 1s ease;
 }
 
-.projectRightLiveBtnLine:hover {
+/* .projectRightLiveBtnLine:hover {
   width: 5px;
   margin-left: 285px;
-}
+} */
 
 .projectRightLearnMoreBtn {
   margin-top: 5px;
   font-size: 14px;
+
 }
 
 .projectRightLearnMoreBtnLine {
@@ -515,10 +528,10 @@ p {
   transition: all 1s ease;
 }
 
-.projectRightLearnMoreBtnLine:hover {
+/* .projectRightLearnMoreBtnLine:hover {
   width: 5px;
   margin-left: 285px;
 
-}
+} */
 
 }

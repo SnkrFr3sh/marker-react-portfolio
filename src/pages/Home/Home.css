@@ -158,7 +158,7 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
 .aboutSectionBorder{
   top: 100px;
   position:absolute;
-  width: 1200px;
+  width: 100vw;
   z-index: 8;
   height: 650px;
   /* left: 420px;
@@ -446,17 +446,146 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   margin-bottom: 10px;
 }
 
+
 @media screen and (max-width: 1399px) {
+  .aboutBody{
+    height: 850px;
+  
+  }
+
+  .row{
+    width: 1150px;
+  }
+
+  .aboutLeft{
+    width:450px;
+    height: 550px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutSectionBorder{
+    top: 100px;
+    position:absolute;
+    width: 1200px;
+    z-index: 8;
+    height: 650px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 15px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .container{
+    width: 1200px !important;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
   .aboutBody{
     height: 1380px;
   
   }
+  .homePhoto{
+    filter: grayscale(70%);
+    opacity: 99%;
+    position: absolute;
+    width: auto;
+    height:1100px;
+    z-index: 7;
+    left:-120px;
+
+  top:-80px;
+    /* bottom: 0px !important; */
+  
+  
+}
+
+.containter{
+width: 800px !important;
+}
+
+
+
+  .aboutSectionBorder{
+    top: 100px;
+    position:absolute;
+    width: 800px;
+    z-index: 8;
+    height: 1050px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 15px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .aboutTitleText{
+    margin-top: -37px;
+    font-size: 85px;
+    color: #743ad5;
+  background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+    margin-left: 230px;
+    z-index: 9;
+    height: 150px;
+    text-align: right;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: start;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+  
+
+  .aboutSection{
+    position:absolute;
+    width: 390px;
+    z-index: 11;
+    height: 250px;
+    left: 395px;
+    top: 200px;
+    background-image: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-slice: 1;
+    border-width: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  }
+  .container{
+    width: 800px;
+  }
+  .aboutRight{
+    width: 550px;
+    height:600px;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -670px !important;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
   .aboutBody{
     height: 1200px;
   
+  }
+
+  .row{
+    width:450px;
   }
   .aboutSectionBorder{
     top: 100px;
@@ -469,6 +598,7 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     display: flex;
     justify-content: center;
+    height: 650px;
     
   }
 
@@ -509,9 +639,9 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 .aboutTitleText{
-  margin-top: 297px;
-  margin-left: 20px;
-  font-size: 50px;
+  margin-top: 341px;
+  margin-right: 360px;
+  font-size: 27px;
   color: #743ad5;
   line-height: 9.75mm;
   background-image:  linear-gradient(to left, #743ad5, #d53a9d);
@@ -576,6 +706,16 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.aboutRight{
+  width: 450px;
+  height:600px;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -670px !important;
 }
 
 

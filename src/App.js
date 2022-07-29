@@ -55,7 +55,9 @@ function App() {
           {/* <div class='aboutTitle'>
           </div> */}
           <div class='aboutSectionBorder'>
+          {/* <div class='aboutTitleText'>MARC PACAMPARA</div> */}
             <div class='aboutColumnContainer container'>
+
               <div class='row'>
 
                 <div class='aboutTitleText'>MARC PACAMPARA</div>
