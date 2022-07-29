@@ -639,9 +639,9 @@ width: 800px !important;
 }
 
 .aboutTitleText{
-  margin-top: 341px;
-  margin-right: 360px;
-  font-size: 27px;
+  margin-top: 298px;
+  margin-right: 212px;
+  font-size: 50px;
   color: #743ad5;
   line-height: 9.75mm;
   background-image:  linear-gradient(to left, #743ad5, #d53a9d);
@@ -650,8 +650,9 @@ width: 800px !important;
   text-align: right;
   background-size: 100%;
   background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
+  width: 300px;
 }
 
 .techAboutSection{
@@ -711,11 +712,11 @@ width: 800px !important;
 .aboutRight{
   width: 450px;
   height:600px;
-  margin-top: 350px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -670px !important;
+  margin-left: 0px !important;
 }
 
 
