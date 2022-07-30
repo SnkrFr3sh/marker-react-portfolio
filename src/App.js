@@ -29,10 +29,10 @@ function App() {
       <div class='websiteBody'>
         <section class='landingBody'>
           <div class='landingContainer'>
-            <div to='' className='landingText'>
+            <a href='#about' to='' className='landingText'>
               <div>Hello,</div>
               <div>I'm Marc.</div>
-            </div>
+            </a>
           </div>
           <div class='bubbleLanding'>
             <div class='bubble bubble1 shift1' />
@@ -64,9 +64,9 @@ function App() {
                 <div class='aboutLeft col-md-6  mx-auto'>
 
                   <div>
-                    <img src={homePhoto} alt='' class='homePhoto'></img>
+                    <img src={homePhoto} alt='' class='homePhoto' id='about'></img>
                   </div>
-                  <div class='aboutSection'>
+                  <div class='aboutSection' >
                     <div class='aboutText'>
                       <p>I am a full-stack web developer based in Seattle. I bring 20+ years of human based artistry and design experience to digital needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Auos?
                       </p>
@@ -157,7 +157,7 @@ function App() {
                       <p> Front-End Website</p>
                     </div>
 
-                    <p class='projectRightDesc'>Full Stack E-commerce website built with Node.js, Express.js, APIs: NBA & Bing Photos </p>
+                    <p class='projectRightDesc'>Front End Web Search Site built with Node.js, Express.js, Web APIs: NBA & Bing Photos </p>
                     <div class='projectRightLive'>
                       <div class='projectRightLiveBtn'>LIVE SITE
                         <div class='projectRightLiveBtnLine'></div>

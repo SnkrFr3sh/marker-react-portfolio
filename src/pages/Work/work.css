@@ -276,6 +276,230 @@ p {
   transition: all 2s ease;
 }
 
+@media screen and (max-width: 995px) {
+
+  .projectLeft {
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .projectLeftSection {
+    z-index: 10;
+    position: absolute;
+    width: 650px;
+    z-index: 8;
+    height: 350px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    /* background-color: #743ad5 ; */
+    left:0px;
+    background-image: linear-gradient(to left, #743ad5, #2E1755);
+  }
+  
+  .projectPhotoLeft {
+    height: 336px;
+    width: 450px;
+    position: absolute;
+    left:-40px;
+    /* margin-left: 400px; */
+    margin-top: 25px;
+    filter: grayscale(100);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 1s ease;
+  }
+  
+  .projectPhotoLeft:hover{
+    transform: scale(.9);
+    filter:grayscale(0)
+  }
+  
+  p {
+    margin-bottom: 0px;
+  }
+  
+  .projectLeftText {
+    color: var(--silk);
+    padding: 30px;
+    /* font-size: 25px; */
+    font-weight: 400;
+    z-index: 11;
+    height: 200px;
+    margin-left: 460px;
+    width: 550px;
+    margin-top: 55px;
+  
+  }
+  
+  .projectLeftTitle {
+    margin-top: -10px;
+    font-size: 40px;
+    line-height: .9;
+    font-size: 40px;
+  }
+  
+  .projectLeftDesc {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 500px;
+    line-height: .9;
+  }
+  
+  .projectLeftLiveBtn {
+    margin-top: 40px;
+    font-size: 25px;
+    /* margin-left: 50px; */
+  }
+  
+  .projectLeftLiveBtnLine {
+    width: 111px;
+    height: 4px;
+    background-color: #d53a9d;
+    /* margin-left: 50px; */
+    transition: all 1s ease;
+  }
+  
+  /* .projectLeftLiveBtnLine:hover {
+    width: 5px;
+  } */
+  
+  
+  .projectLeftLearnMoreBtn {
+    margin-top: 10px;
+    font-size: 25px;
+    /* margin-left: 50px; */
+  }
+  
+  .projectLeftLearnMoreBtnLine {
+    width: 159px;
+    height: 4px;
+    background-color: #d53a9d;
+    /* margin-left: 50px; */
+    transition: all 1s ease;
+  }
+  
+  /* .projectLeftLearnMoreBtnLine:hover {
+    width: 5px;
+  
+  } */
+  
+  
+  .projectRight {
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  
+  .projectRightSection {
+    z-index: 10;
+    position: absolute;
+    width: 650px;
+    z-index: 8;
+    height: 350px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    /* background-color: #743ad5 ; */
+    /* right: 0px; */
+    background-image: linear-gradient(to left, #2E1755, #743ad5);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* transition: all 1s ease; */
+    display: flex;
+    justify-content: right;
+  }
+  
+  .projectPhotoRight {
+    height: 336px;
+    width: 450px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 25px;
+    filter: grayscale(100);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s ease;
+    margin-right: 10px;
+  
+  }
+  
+  .projectPhotoRight:hover{
+    transform: scale(.9);
+    filter:grayscale(0)
+  }
+  
+  p {
+    margin-bottom: 0px;
+  }
+  
+  .projectRightText {
+    color: var(--silk);
+    padding: 30px;
+    /* font-size: 25px; */
+    font-weight: 400;
+    z-index: 11;
+    height: 200px;
+    margin-top: 55px;
+    margin-right: 455px;
+    width: 550px;
+    text-align: right;
+  
+  }
+  
+  .projectRightTitle {
+    margin-top: -10px;
+    font-size: 40px;
+    line-height: .9;
+    font-size: 40px;
+  }
+  
+  .projectRightDesc {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 485px;
+    line-height: .9;
+    text-align: right;
+    margin-left: 1px;
+  }
+  
+  .projectRightLiveBtn {
+    margin-top: 40px;
+    font-size: 25px;
+  
+  }
+  
+  .projectRightLiveBtnLine {
+    width: 111px;
+    height: 4px;
+    background-color: #d53a9d;
+    margin-left: 378px;
+    transition: all 1s ease;
+  }
+  
+  /* .projectRightLiveBtnLine:hover {
+    width: 5px;
+    margin-left: 285px;
+  } */
+  
+  .projectRightLearnMoreBtn {
+    margin-top: 10px;
+    font-size: 25px;
+  
+  }
+  
+  .projectRightLearnMoreBtnLine {
+    width: 158px;
+    height: 4px;
+    background-color: #d53a9d;
+    margin-left: 330px;
+    transition: all 1s ease;
+  }
+  
+
+}
+
 
 @media screen and (max-width: 450px) {
   .workBody{

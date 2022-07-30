@@ -15,7 +15,9 @@ function Home() {
 
         <section class='homeSection'>
           <div class='aboutTitle'>
-            <div className='aboutTitleBox'></div><div class='aboutTitleText'>ABOUT</div></div>
+            <div className='aboutTitleBox'></div>
+            <div class='aboutTitleText'>ABOUT</div>
+            </div>
           {/* <div class='aboutTextBox'>
           <div class='aboutBar'>
             About me

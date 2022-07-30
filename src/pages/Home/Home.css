@@ -14,7 +14,7 @@
 
 .aboutBody{
   position: relative;
-    height: 900px;
+    height: 1000px;
     width: 100vw;
 /* left: 50%; 
 transform: translate(-50%); */
@@ -42,11 +42,11 @@ justify-content: center;
     opacity: 99%;
     position: absolute;
     width: auto;
-    height: 700px;
+    height: 800px;
     z-index: 7;
-    left:-80px;
+    left:100px;
 
-  top:-80px;
+  top:-150px;
     /* bottom: 0px !important; */
   
   
@@ -92,21 +92,23 @@ top:-70px;
 }
 
 .aboutTitleText{
-  margin-top: -46px;
-  font-size: 100px;
-  color: #743ad5;
-background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+  margin-top: -50px;
+  font-size: 110px;
+  color: var(--dark-grey);
 
-  z-index: 9;
+  /* color: #743ad5; */
+/* background-image:  linear-gradient(to left, #743ad5, #d53a9d); */
+  margin-left: 100px;
+  z-index: 10;
   height: 150px;
   text-align: right;
   /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
+  /* background-size: 100%;
+  background-repeat: repeat; */
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
 }
 
 .aboutTitleBox{
@@ -128,6 +130,7 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease-in 3ms;
 }
 
 .aboutRight{
@@ -163,14 +166,15 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   height: 650px;
   /* left: 420px;
   top: 250px; */
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 15px;
-  /* background-image:  linear-gradient(to left, #743ad5, #d53a9d); */
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  /* border: 10px solid; */
+  /* border-image-slice: 1; */
+  /* border-width: 15px; */
+  background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   display: flex;
   justify-content: center;
+  
   
 }
 
@@ -182,9 +186,10 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   border-radius: 5px; */
   z-index: 11;
   height: 250px;
-  left: 150px;
+  left: 350px;
   top: 200px;
-  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  /* background-image: linear-gradient(to left, #743ad5, #d53a9d); */
+  background-color: var(--dark-grey);
 
   /* border-right: 10px solid;
   border-bottom: 10px solid; */
@@ -194,7 +199,11 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
-
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  /* background-image:  linear-gradient(to left, #743ad5, #d53a9d); */
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 .aboutText{
@@ -335,8 +344,6 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
   width: 900px;
 
 } */
-
-
 /* .nameHome{
     color: var(--silk);
     font-size: 150px;
@@ -457,6 +464,11 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
     width: 1150px;
   }
 
+  .homePhoto{
+    left:-90px;
+    height: 770px;
+  }
+
   .aboutLeft{
     width:450px;
     height: 550px;
@@ -466,7 +478,7 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
     align-items: center;
   }
 
-  .aboutSectionBorder{
+  .aboutSectionBorder {
     top: 100px;
     position:absolute;
     width: 1200px;
@@ -477,14 +489,40 @@ background-image:  linear-gradient(to left, #743ad5, #d53a9d);
     border-width: 15px;
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     display: flex;
+    /* background-color: var(--dark-grey); */
+    background-image: var(--dark-grey);
     justify-content: center;
     
+  }
+
+  .aboutSection{
+    left:150px;
+      background-image: linear-gradient(to left, #743ad5, #d53a9d);
+
   }
 
   .container{
     width: 1200px !important;
   }
-
+  .aboutTitleText{
+    margin-top: -50px;
+    font-size: 106px;
+    color: var(--dark-grey);
+  
+    /* color: #743ad5; */
+  background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+    margin-left: 35px;
+    z-index: 10;
+    height: 150px;
+    text-align: right;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
 
 }
 
@@ -576,6 +614,202 @@ width: 800px !important;
     margin-left: -670px !important;
   }
 
+}
+
+@media screen and (max-width: 995px) {
+  .aboutTitleText{
+    margin-top: -6px;
+    margin-right: 465px;
+    font-size: 100px;
+    color: #743ad5;
+    line-height: 20mm;
+    background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+    z-index: 9;
+    height: 550px;
+    text-align: right;
+    background-size: 100%;
+    background-repeat: repeat;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+    width: 600px;
+  }
+  .techAboutSection{
+    z-index: 10;
+    position:absolute;
+    border-radius: 400px;
+    z-index: 8;
+    height: 500px;
+    /* right: 50px;
+    top:200px; */
+  }
+    .aboutRight{
+      width: 450px;
+      height:600px;
+      margin-top: -75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -1300px !important;
+  
+  }
+}
+
+
+/* 400px  */
+
+
+@media screen and (max-width: 850px) {
+  .aboutBody{
+    height: 1200px;
+  
+  }
+
+  .row{
+    width:750px;
+  }
+  .aboutSectionBorder{
+    top: 100px;
+    position:absolute;
+    width: 600px;
+    z-index: 8;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 15px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    
+  }
+
+.homePhoto{
+  filter: grayscale(70%);
+  opacity: 99%;
+  position: absolute;
+  width: auto;
+  height: 670px;
+  z-index: 7;
+  left:-70px;
+  top:-50px;
+  /* bottom: 0px !important; */
+
+
+}
+
+.aboutSection{
+  width: 300px;
+  height: 200px;
+  left: 250px;
+  top: 60px;
+background-color: transparent;
+background-image: none;
+  /* border-image-slice: 1; */
+  border-width: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+
+}
+
+.aboutText{
+  color: var(--silk);
+  padding: 30px;
+  font-size: 21px;
+  font-weight: 400;
+  z-index: 11;
+  text-align: justify;
+  height: 200px;
+}
+
+.aboutTitleText{
+  margin-top: 484px;
+  margin-right: 218px;
+  font-size: 90px;
+  color: #743ad5;
+  line-height: 18mm;
+  background-image:  linear-gradient(to left, #743ad5, #d53a9d);
+  z-index: 9;
+  height: 250px;
+  text-align: right;
+  background-size: 100%;
+  background-repeat: repeat;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
+  width: 550px;
+}
+
+.techAboutSection{
+  z-index: 10;
+  position:absolute;
+  border-radius: 400px;
+  z-index: 8;
+  height: 500px;
+  /* right: 50px;
+  top:200px; */
+
+}
+
+.techAboutText{
+  color: var(--silk);
+  padding: 60px 30px 60px 30px;
+
+  font-size: 21px;
+  /* background-color: var(--dark-grey); */
+  left: 320px;
+  font-weight: 400;
+  z-index: 15;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.iconTile{
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  /* background-color: var(--dark-grey); */
+  width: 100px;
+  height:90px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* transition: all 1s ease; */
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  /* background-image:  linear-gradient(to left, #743ad5, #d53a9d); */
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+}
+
+
+.aboutLeft{
+  width:600px;
+  height: 120px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutRight{
+  width: 450px;
+  height:600px;
+  margin-top: -290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .aboutTitleText{
+    margin-right: 400px;
+
+  }
+  
 }
 
 @media screen and (max-width: 450px) {
