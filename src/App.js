@@ -1,5 +1,5 @@
 import React from "react";
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 
@@ -129,7 +129,10 @@ function App() {
             <div class='workSection'>
               <div class='projectLeft'>
                 <div class='projectLeftSection'>
+                  <a href='https://tailorthrift.herokuapp.com' target='_blank' rel="noreferrer">
                   <img src={project1} alt='' class='projectPhotoLeft' />
+                  </a>
+
                   <div class='projectLeftText'>
                     <div class='projectLeftTitle'>
                       <p>Tailor Thrift</p>
@@ -137,20 +140,23 @@ function App() {
                     </div>
 
                     <p class='projectLeftDesc'>Full Stack E-commerce website built with REACT, Node.js, Express.js, MongoDB, </p>
-                    <div class='projectLeftLive'>
+                    <a href='https://tailorthrift.herokuapp.com' target='_blank' rel="noreferrer" class='projectLeftLive'>
                       <div class='projectLeftLiveBtn'>LIVE SITE</div>
                       <div class='projectLeftLiveBtnLine'></div>
-                    </div>
-                    <div class='projectLeftLearnMore'>
+                    </a>
+                    <a href='https://github.com/StevenEi/Project-03-TailorThrift' target='_blank' rel="noreferrer" class='projectLeftLearnMore'>
                       <div class='projectLeftLearnMoreBtn'>LEARN MORE</div>
                       <div class='projectLeftLearnMoreBtnLine'></div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
               <div class='projectRight'>
                 <div class='projectRightSection'>
-                  <img src={project2} alt='' class='projectPhotoRight' />
+                  <a href='https://snkrfr3sh.github.io/sport_facts/' target="_blank" rel="noreferrer">
+                      <img src={project2} alt='' class='projectPhotoRight' />
+                  </a>
+                
                   <div class='projectRightText'>
                     <div class='projectRightTitle'>
                       <p>NBA Facts</p>
@@ -158,17 +164,17 @@ function App() {
                     </div>
 
                     <p class='projectRightDesc'>Front End Web Search Site built with Node.js, Express.js, Web APIs: NBA & Bing Photos </p>
-                    <div class='projectRightLive'>
+                    <a href='https://snkrfr3sh.github.io/sport_facts/' target="_blank"  rel="noreferrer" class='projectRightLive'>
                       <div class='projectRightLiveBtn'>LIVE SITE
                         <div class='projectRightLiveBtnLine'></div>
                       </div>
 
-                    </div>
-                    <div class='projectRightLearnMore'>
+                    </a>
+                    <a href='https://github.com/SnkrFr3sh/sport_facts' targer='_blank' rel="noreferrer" class='projectRightLearnMore'>
                       <div class='projectRightLearnMoreBtn'>LEARN MORE
                         <div class='projectRightLearnMoreBtnLine'></div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>

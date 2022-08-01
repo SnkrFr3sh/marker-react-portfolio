@@ -118,7 +118,13 @@ p {
   height: 200px;
   margin-left: 600px;
   width: 550px;
+  
 
+}
+
+a, a:hover, a:visited, a:active{
+color: inherit;
+text-decoration: none;
 }
 
 .projectLeftTitle {
