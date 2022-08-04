@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './App.css';
 
 
@@ -7,7 +7,7 @@ import './pages/Landing/Landing.css';
 import './pages/Home/Home.css';
 import './pages/Work/work.css';
 import homePhoto from './components/images/homephoto.png';
-import pixelPhoto from './components/images/pixelPhoto.png';
+// import pixelPhoto from './components/images/pixelPhoto.png';
 import htmlIcon from './components/images/html.png';
 import cssIcon from './components/images/css.png';
 import jsIcon from './components/images/javascript.png';
@@ -19,7 +19,7 @@ import nodeIcon from './components/images/nodejs.png';
 import sassIcon from './components/images/sass.png';
 import project1 from './components/images/project1.png';
 import project2 from './components/images/project2.png';
-import project3 from './components/images/project3.png';
+// import project3 from './components/images/project3.png';
 
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
           {/* <div class='aboutTitle'>
           </div> */}
           <div class='aboutSectionBorder'>
-          {/* <div class='aboutTitleText'>MARC PACAMPARA</div> */}
+            {/* <div class='aboutTitleText'>MARC PACAMPARA</div> */}
             <div class='aboutColumnContainer container'>
 
               <div class='row'>
@@ -130,7 +130,7 @@ function App() {
               <div class='projectLeft'>
                 <div class='projectLeftSection'>
                   <a href='https://tailorthrift.herokuapp.com' target='_blank' rel="noreferrer">
-                  <img src={project1} alt='' class='projectPhotoLeft' />
+                    <img src={project1} alt='' class='projectPhotoLeft' />
                   </a>
 
                   <div class='projectLeftText'>
@@ -154,9 +154,9 @@ function App() {
               <div class='projectRight'>
                 <div class='projectRightSection'>
                   <a href='https://snkrfr3sh.github.io/sport_facts/' target="_blank" rel="noreferrer">
-                      <img src={project2} alt='' class='projectPhotoRight' />
+                    <img src={project2} alt='' class='projectPhotoRight' />
                   </a>
-                
+
                   <div class='projectRightText'>
                     <div class='projectRightTitle'>
                       <p>NBA Facts</p>
@@ -164,7 +164,7 @@ function App() {
                     </div>
 
                     <p class='projectRightDesc'>Front End Web Search Site built with Node.js, Express.js, Web APIs: NBA & Bing Photos </p>
-                    <a href='https://snkrfr3sh.github.io/sport_facts/' target="_blank"  rel="noreferrer" class='projectRightLive'>
+                    <a href='https://snkrfr3sh.github.io/sport_facts/' target="_blank" rel="noreferrer" class='projectRightLive'>
                       <div class='projectRightLiveBtn'>LIVE SITE
                         <div class='projectRightLiveBtnLine'></div>
                       </div>
@@ -182,26 +182,45 @@ function App() {
           </div>
 
         </section>
-        <section class='appSection'>
-          <form class="contact-form">
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" />
+        <section class='contactSection'>
+          <div class='contactArea'>
+            <div class='contactText'>Interested in working together?
             </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" aria-describedby="emailHelp" />
+            <div class='contactBtnArea'>
+
+            <a class='contactBtn' href="mailto:mpacampara@gmail.com?subject=Web%20Services%20Inquiry">CONTACT ME
+            </a>
+                          {/* <div class='contactBtnLine'/> */}
             </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="5"></textarea>
+
+            <div class='contactBtnArea'>
+              <div class='contactIcon'>
+                <i class="fa fa-instagram" />
+              </div>
+              <div class='contactIcon'>
+                <i class="fa fa-github contactIcon" />
+              </div>
+              <div class='contactIcon'>
+                <i class="fa fa-linkedin contactIcon" />
+              </div>
+
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-          </form>
+
+          </div>
+
+
+
+
 
         </section>
 
       </div>
+      <div class='footerSection'>
+
+
+      </div>
+
+
       {/* <div class='test'> this is a test</div> */}
       {/* <BrowserRouter>
           <Routes>
