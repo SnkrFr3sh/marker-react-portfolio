@@ -678,7 +678,7 @@ p {
   height: 144px;
   width: 180px;
   position: absolute;
-  margin-left: 80px;
+  margin-left: 350px;
   margin-top: 15px;
   filter: grayscale(100);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -711,23 +711,26 @@ p {
 
 .projectRightTitle {
   margin-top: -10px;
-  font-size: 40px;
+  width:150px;
+  font-size: 15px !important;
   line-height: .9;
   font-size: 18px;
+  margin-left: 405px;
 }
 
 .projectRightDesc {
   margin-top: 10px;
   font-size: 10px;
-  width: 150px;
+  width: 120px;
   line-height: .9;
   text-align: right;
-  margin-left: 140px;
+  margin-left: 435px;
 }
 
 .projectRightLiveBtn {
   margin-top: 5px;
   font-size: 14px;
+  margin-left: 263px;
 
 }
 

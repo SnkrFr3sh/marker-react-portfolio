@@ -1007,6 +1007,13 @@ background-image: none;
   margin-left: 0px !important;
 }
 
+.contactText{
+  padding-top: 120px;
+  font-size: 22px;
+  color: var(--silk);
+
+
+}
 
 }
 
