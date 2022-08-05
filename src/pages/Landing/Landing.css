@@ -40,6 +40,7 @@
     width:450px;
     height:450px;
     border-radius: 250px;
+    z-index: 13;
 
     /* width:100vw;
     height: 100vh; */

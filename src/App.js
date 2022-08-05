@@ -27,7 +27,7 @@ function App() {
   return (
     <section class='body'>
       <div class='websiteBody'>
-        <section class='landingBody'>
+        <section id='landing' class='landingBody'>
           <div class='landingContainer'>
             <a href='#about' to='' className='landingText'>
               <div>Hello,</div>
@@ -186,25 +186,14 @@ function App() {
           <div class='contactArea'>
             <div class='contactText'>Interested in working together?
             </div>
-            <div class='contactBtnArea'>
+            <div class='contactBtnArea1'>
 
-            <a class='contactBtn' href="mailto:mpacampara@gmail.com?subject=Web%20Services%20Inquiry">CONTACT ME
-            </a>
-                          {/* <div class='contactBtnLine'/> */}
+              <a class='contactBtn' href="mailto:mpacampara@gmail.com?subject=Web%20Services%20Inquiry">CONTACT ME
+              </a>
+              {/* <div class='contactBtnLine'/> */}
             </div>
 
-            <div class='contactBtnArea'>
-              <div class='contactIcon'>
-                <i class="fa fa-instagram" />
-              </div>
-              <div class='contactIcon'>
-                <i class="fa fa-github contactIcon" />
-              </div>
-              <div class='contactIcon'>
-                <i class="fa fa-linkedin contactIcon" />
-              </div>
 
-            </div>
 
           </div>
 
@@ -216,8 +205,32 @@ function App() {
 
       </div>
       <div class='footerSection'>
+        <div class='backToTopSection'>
+        <div class='backToTop'>
+          <a href='#landing' to='' class='iconText'>
+            <i class="fa fa-chevron-up upIcon1"/>
+          </a>
+        </div>
+
+        </div>
+
+        <div class='footerArea'>
 
 
+          <a href='https://www.instagram.com/markerspacam/?hl=en' target='_blank' class='contactIcon'>
+            <i class="fa fa-instagram" />
+          </a>
+          <a href='https://github.com/SnkrFr3sh' target='_blank' class='contactIcon'>
+            <i class="fa fa-github contactIcon" />
+          </a>
+          <a href='https://www.linkedin.com/in/marc-pacampara-b75a4bba/' target='_blank' class='contactIcon'>
+            <i class="fa fa-linkedin contactIcon" />
+          </a>
+
+
+
+
+        </div>
       </div>
 
 

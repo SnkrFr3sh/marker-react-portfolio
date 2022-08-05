@@ -363,7 +363,7 @@ p {
     height: 4px;
     background-color: #d53a9d;
     /* margin-left: 50px; */
-    transition: all 1s ease;
+    transition: all .15s ease;
   }
   
   /* .projectLeftLiveBtnLine:hover {
@@ -382,7 +382,7 @@ p {
     height: 4px;
     background-color: #d53a9d;
     /* margin-left: 50px; */
-    transition: all 1s ease;
+    transition: all .15s ease;
   }
   
   /* .projectLeftLearnMoreBtnLine:hover {
@@ -481,7 +481,7 @@ p {
     height: 4px;
     background-color: #d53a9d;
     margin-left: 378px;
-    transition: all 1s ease;
+    transition: all .15s ease;
   }
   
   /* .projectRightLiveBtnLine:hover {
@@ -500,7 +500,7 @@ p {
     height: 4px;
     background-color: #d53a9d;
     margin-left: 330px;
-    transition: all 1s ease;
+    transition: all .15s ease;
   }
   
 
