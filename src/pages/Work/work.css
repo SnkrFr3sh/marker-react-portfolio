@@ -593,7 +593,7 @@ p {
   height: 200px;
   margin-left: 170px;
   width: 350px;
-
+  margin-top:5px;
 }
 
 .projectLeftTitle {
@@ -678,11 +678,12 @@ p {
   height: 144px;
   width: 180px;
   position: absolute;
-  margin-left: 350px;
+  /* margin-left: 350px; */
   margin-top: 15px;
   filter: grayscale(100);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 1s ease;
+  right:1px;
 
 }
 
@@ -703,34 +704,35 @@ p {
   z-index: 11;
   height: 200px;
   margin-top: -5px;
-  margin-left: -250px;
+  /* margin-left: -250px; */
   width: 350px;
   text-align: right;
+  margin-right: 455px;
 
 }
 
 .projectRightTitle {
   margin-top: -10px;
-  width:150px;
-  font-size: 15px !important;
+  width:170px;
   line-height: .9;
-  font-size: 18px;
+  font-size: 18px !important;
   margin-left: 405px;
 }
 
 .projectRightDesc {
   margin-top: 10px;
   font-size: 10px;
-  width: 120px;
+  width: 155px;
   line-height: .9;
   text-align: right;
-  margin-left: 435px;
+  margin-left: 420px;
 }
 
 .projectRightLiveBtn {
   margin-top: 5px;
   font-size: 14px;
-  margin-left: 263px;
+  margin-left: 425px;
+  width: 150px;
 
 }
 
@@ -738,7 +740,7 @@ p {
   width: 63px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 228px;
+  margin-left: 88px;
   transition: all 1s ease;
 }
 
@@ -750,14 +752,15 @@ p {
 .projectRightLearnMoreBtn {
   margin-top: 5px;
   font-size: 14px;
-
+  width: 150px;
+  margin-left:425px;
 }
 
 .projectRightLearnMoreBtnLine {
   width: 90px;
   height: 4px;
   background-color: #d53a9d;
-  margin-left: 200px;
+  margin-left: 61px;
   transition: all 1s ease;
 }
 
